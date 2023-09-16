@@ -3,9 +3,7 @@ import React, { useState } from "react";
 import {
   ActivityIndicator,
   RefreshControl,
-  RefreshControlComponent,
   ScrollView,
-  ScrollViewComponent,
   Text,
   View,
 } from "react-native";

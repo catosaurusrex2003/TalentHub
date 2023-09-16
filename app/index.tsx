@@ -25,7 +25,7 @@ const Home = () => {
             <ScreenHeaderBtn iconUrl={icons.menu} dimension="60%" />
           ),
           headerRight: () => (
-            <ScreenHeaderBtn iconUrl={images.profile} dimension="90%" />
+            <ScreenHeaderBtn iconUrl={images.profile} dimension="90%" handlePress={()=>{router.push("/profile")}} />
           ),
           headerTitle: "",
           headerTitleAlign:"center"
